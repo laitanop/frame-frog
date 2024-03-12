@@ -18,6 +18,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta property="fc:frame" content="vNext" />
+        <meta
+          name="fc:frame:image"
+          content={`${process.env.VERCEL_URL || "http://localhost:3000"}/api`}
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
