@@ -19,8 +19,8 @@ export default function RootLayout({
       <head>
         <meta property="fc:frame" content="vNext" />
         <meta
-          name="fc:frame:image"
-          content={`${process.env.VERCEL_URL || "http://localhost:3000"}/api`}
+          property="fc:frame:image"
+          content="https://frame-frog-58w0i7sit-laitanop.vercel.app/api"
         />
       </head>
       <body className={inter.className}>{children}</body>
