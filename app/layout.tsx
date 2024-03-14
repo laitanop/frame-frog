@@ -14,12 +14,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log("test");
   return (
     <html lang="en">
       <head>
         <meta property="fc:frame" content="vNext" />
         <meta
-          property="fc:frame:image"
+          name="fc:frame:image"
           content={`${process.env.VERCEL_URL}/api/image?image=N4IglgzgohDGCGAHApgExALgC4CcCuyANCFvAOaYipgBuIxiOA9ohJqBFgJ4A2y7IeDzBkAdgEksyALZsMIWMlFSc9EACN4sANZlmeUennqeW7Ws069TA6gDKYAF795ARgAM7gKQACD97VqCERTLkoAMz4ADzVI5CiAETAcZFgsMCZRSlgmHjxpLOI4qIB1HCRKUSYAd3LENQALZBEGrEp-LzUAKzxOMHCuAGFMqWVspRU1KSisAEFhMXHlZFViarBULAb2z06AXz3iWAawHlQUrIwAbVBIGAQUI1wCYlIKeWo6BmZWAU5eFygHI8JiqeTVE5SWIjBzOTAANncRRh3D4lVB0iEaj4WBUdkQWjAoneIAAtO4AHTuABMAFYZNiicgABLNMitTCuCkAFmImJwZCJABUWJgAMxIkAE1DUYmUdx%252BanuRAxNaQ5D4rQuKUpUm1CoHI4nM4XTBXEAlZA8HLSZAAQhAAF09s6gA`}
         />
       </head>
