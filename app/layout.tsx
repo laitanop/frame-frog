@@ -18,7 +18,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta property="fc:frame" content="vNext" />
-        <meta property="fc:frame:image" content="/sakura6.png" />
+        <meta
+          property="fc:frame:image"
+          content="https://aquamarine-quickest-marmoset-831.mypinata.cloud/ipfs/QmVUXDaMvtZ2KnUCPySvReNqNjrTLxxHsKeKiriYyA4Aru"
+        />
         <meta property="og:image" content="/sakura6.png" />
       </head>
       <body className={inter.className}>{children}</body>
